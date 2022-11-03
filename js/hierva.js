@@ -13,7 +13,7 @@ const f0 = new Image()
 // const f7 = new Image()
 // const f8 = new Image()
 // const f9 = new Image()
-f0.src="../img/0 (1).gif"
+f0.src="./img/0 (1).gif"
 // f1.src="../img/WnES-2 (dragged).tiff"
 // f2.src="../img/WnES-3 (dragged).tiff"
 // f3.src="../img/WnES-4 (dragged).tiff"
@@ -25,11 +25,11 @@ f0.src="../img/0 (1).gif"
 // f9.src="../img/WnES-10 (dragged).tiff"
 
 const e0 = new Image()
-e0.src = "../img/0magykarp.gif"
+e0.src = "./img/0magykarp.gif"
 //Medidas canvas 1000 x 600
 
 const p0 = new Image()
-p0.stc = "../img/pika.jpeg"
+p0.stc = "./img/pika.jpeg"
 
 let enemigos = []
 let municiones = []
