@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.fondo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/fondo\ pikachu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letra {
+    background-color: rgba(0, 0, 0, 0);
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+h1{
+   color: whitesmoke
+}
+h2 {
+    color: #fff;
+    padding: 25px;
+    border: 2px solid #ffd0a2;
+    border-radius: 20px;
+    margin: 15px 0px;
+    width: 15%;
+  }
+  
+h2:hover {
+    color: #ffd0a2;
+    border-color: #fff;
+    cursor: pointer;
+}

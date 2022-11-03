@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.fondo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/Pok_mon_minimalism_Squirtle_Bulbasaur_Charmander_simple_background_collage-182373.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.type{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    color: #fff;
+    padding: 25px;
+    border: 2px solid #ffd0a2;
+    border-radius: 20px;
+    margin: 15px 0px;
+    width: 15%;
+  }
+  
+h2:hover {
+    color: #ffd0a2;
+    border-color: #fff;
+    cursor: pointer;
+}
