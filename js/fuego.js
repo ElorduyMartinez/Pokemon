@@ -1,7 +1,7 @@
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
-
-
+const gameOver = document.getElementById("gameOver");
+const win = document.getElementById('Win')
 ctx.font = "24px Arial";
 
 const f0 = new Image()
@@ -184,6 +184,8 @@ function comenzar(){
     personaje.vidas = 3;
     enemigos = [];
     municiones = [];
+    gameOver.classList.add("noShow");
+    win.classList.add("noShow");
     personaje.posicionX = 40;
     personaje.posicionY = 200;
     personaje.imagen = tankSprites[contadorTankSprite]
@@ -210,7 +212,7 @@ function comenzar(){
           if (personaje.life == 0) {
             clearInterval(intervalId);
             clearInterval(intervalIdEnemigos);
-            alert("perdio")
+            gameOver.classList.remove("noShow");
            
           }
         }
@@ -256,7 +258,7 @@ function comenzar(){
       if (personaje.score == 150){
         clearInterval(intervalId);
         clearInterval(intervalIdEnemigos);
-        alert("Gano") 
+        win.classList.remove("noShow");
       }
   
       if (personaje.score >= 100) {
@@ -274,7 +276,7 @@ function comenzar(){
             
             clearInterval(intervalId);
             clearInterval(intervalIdEnemigos);
-            alert("perdio")     
+            gameOver.classList.remove("noShow"); 
       }}
     }, 1000 / 60);
   

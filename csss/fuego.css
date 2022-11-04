@@ -17,3 +17,37 @@ canvas {
   border: 8px solid rgb(184, 180, 180);
   background-image:url('./../img/pokemon-virtual-fest-1633678522.jpeg');
 }
+
+.gameOver {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  height: 100vh;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noShow {
+  display: none;
+}
+
+.Win {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  height: 100vh;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
