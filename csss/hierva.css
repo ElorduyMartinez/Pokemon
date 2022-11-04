@@ -6,7 +6,7 @@
 
 canvas {
     border: 8px solid rgb(184, 180, 180);
-    background-color: rgba(14, 7, 7, 0.5);
+    background-image:url('./../img/pokemon-virtual-fest-1633678522.jpeg');
 }
 .fondo {
     width: 100vw;

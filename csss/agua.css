@@ -9,4 +9,12 @@
     background-image: url("../img/squirtlefondo.jpg!d");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+  border: 8px solid rgb(184, 180, 180);
+  background-image:url('./../img/pokemon-virtual-fest-1633678522.jpeg');
 }

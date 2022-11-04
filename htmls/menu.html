@@ -12,10 +12,33 @@
 <body>
     <div class = fondo>
         <div class = words>
-        <a href="../htmls/eleccion.html"><h1>New game</h1></a>
-        <h1>Credits</h1>
-        <h1>How to play</h1>
+            <div> 
+                <a href="../htmls/eleccion.html"><button>New game</button></a>
+                <button id = creditos>Credits</button>
+                <button id = howtoplay>How to play</button>
+                <div class="modalcontainer"id='modalcontainer'>
+                    <div class = creditos>
+                        <h1>Creditos</h1>
+                        <h2>Sebastian Elorduy Martinez Manzanero </h2>
+                        <button id = cerrarcreditos>Close</button>
+                    </div>
+                </div>
+                <div class="howto"id='howto'>
+                    <div class = howtoplay>
+                        <p>Arrowup : move up</p>
+                        <p>Arrowdown: move down</p>
+                        <p>Arrowright: move right</p>
+                        <p>Arrowleft: move left</p>
+                        <p>Arrowd: Shoot</p>
+                        <p>Make 100pts to spawn boss</p>
+                        <p>Make 150pts to win game</p>
+                        <button id = closehow>Close</button>
+                    </div>
+                
+                </div>
+            </div>
         </div>
     </div>
+    <script src="../js/menu.js"></script>
 </body>
 </html>

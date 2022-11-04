@@ -26,17 +26,18 @@
     justify-content: space-around;
 }
 
-h2 {
-    color: #fff;
+button {
+    color: rgb(34, 26, 26);
     padding: 25px;
-    border: 2px solid #ffd0a2;
+    border: 4px solid #131210;
     border-radius: 20px;
     margin: 15px 0px;
     width: 15%;
+    background-color: #f3f1ec93;
   }
   
-h2:hover {
-    color: #ffd0a2;
+button:hover {
+    color: #cf1212;
     border-color: #fff;
     cursor: pointer;
 }
